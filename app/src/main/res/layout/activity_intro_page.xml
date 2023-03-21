@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroPage"
+    android:background="@drawable/introbkimage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DICE GAME"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+    
+    <Button
+        android:id="@+id/new_game_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:layout_centerHorizontal="true"
+        android:text="NEW GAME"
+        android:background="@drawable/round_button"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/new_game_btn"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="ABOUT"
+        android:background="@drawable/round_button"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>

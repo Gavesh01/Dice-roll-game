@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newgamebkimg">
+
+
+    <ImageView
+        android:id="@+id/player_dice5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="508dp"
+        android:layout_marginTop="88dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/player_dice4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="428dp"
+        android:layout_marginTop="88dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+
+    <ImageView
+        android:id="@+id/player_dice3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="88dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/player_dice1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="88dp"
+        android:tag="h1"
+        android:tooltipText="hhh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/player_dice2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="88dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/computer_dice4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="428dp"
+        android:layout_marginTop="184dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/computer_dice3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="184dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/computer_dice1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="184dp"
+        android:tag="h1"
+        android:tooltipText="hhh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <ImageView
+        android:id="@+id/computer_dice2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="184dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <ImageView
+        android:id="@+id/computer_dice5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="508dp"
+        android:layout_marginTop="184dp"
+        android:tag="h2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diceblank" />
+
+    <Button
+        android:id="@+id/score_button"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/round_button"
+        android:text="Score"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/throw_button"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="32dp"
+        android:text="Throw"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="80dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="608dp"
+        android:layout_marginTop="100dp"
+        android:text="Human"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/player_wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="WINS"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/computer_wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/playerTotScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="692dp"
+        android:layout_marginTop="48dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/computerTotScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="692dp"
+        android:layout_marginTop="68dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="108dp"
+        android:text="SCORE"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/targetScoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="380dp"
+
+        android:textColor="#fa5b3d "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rollCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

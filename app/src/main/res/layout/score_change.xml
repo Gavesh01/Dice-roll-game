@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#2B3A39"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:text="Target Score"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/current_game_score"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="101"
+        android:background="@drawable/edit_text"
+        android:inputType="number"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/easyBtn"
+        android:layout_width="119dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:text="EASY"
+        android:background="@drawable/round_button"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current_game_score" />
+
+    <Button
+        android:id="@+id/hardBtn"
+        android:layout_width="119dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="HARD"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/easyBtn"
+        app:layout_constraintTop_toBottomOf="@+id/current_game_score" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="119dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:text="CANCEL"
+        android:textSize="17dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/easyBtn"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
